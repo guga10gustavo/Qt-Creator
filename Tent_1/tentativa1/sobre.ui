@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Sobre</class>
+ <widget class="QWidget" name="Sobre">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>455</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>435</width>
+        <height>445</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="titulo">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;INTELIGÊNCIA ARTIFICIAL APLICADA EM TRIAGEM PSICOPATOLÓGICA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::RichText</enum>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="conteudo">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;A psicopatologia é o estudo sistemático do comportamento, da cognição e da experiência anormais; o estudo dos produtos de uma mente com um transtorno mental. Isto inclui as psicopatologias explicativas, nas quais existem supostas explicações, de acordo com conceitos teóricos (por exemplo, a partir de uma base psicodinâmica, comportamental ou existencial, e assim por diante), e a psicopatologia descritiva, que consiste da descrição e da categorização precisas de experiências anormais, como informadas pelo paciente e observadas em seu comportamento.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Um dos métodos mais frequentes de classificação de doença mental é pela categorização de experiências descritas por pessoas mentalmente doentes e da definição dos termos utilizados, tais como &amp;quot;depressão&amp;quot; ou &amp;quot;ansiedade&amp;quot;, que acometem grande parte da sociedade atual. Para o progresso no prognóstico e no tratamento, tal classificação é essencial. Dessa forma, tem-se a aplicação da ferramenta de IA, juntamente com a manipulação do médico, iteração com o paciente e tecnologia, objetivando a realização da identificação e da triagem psicopatológica. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::RichText</enum>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="voltar">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Voltar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

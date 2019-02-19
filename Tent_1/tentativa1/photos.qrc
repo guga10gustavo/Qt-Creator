@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>AI.jpg</file>
+        <file>artificial_intelligence-256x256.jpg</file>
+    </qresource>
+</RCC>

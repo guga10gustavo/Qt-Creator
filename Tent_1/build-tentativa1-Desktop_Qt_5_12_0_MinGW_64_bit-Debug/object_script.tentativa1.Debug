@@ -1,0 +1,12 @@
+debug/main.o
+debug/widget.o
+debug/sobre.o
+debug/pergunta1.o
+debug/continua1.o
+debug/quest1.o
+debug/qrc_photos.o
+debug/moc_widget.o
+debug/moc_sobre.o
+debug/moc_pergunta1.o
+debug/moc_continua1.o
+debug/moc_quest1.o
