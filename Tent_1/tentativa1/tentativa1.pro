@@ -5,7 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
-
+QT += xml
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = tentativa1
@@ -30,21 +30,26 @@ SOURCES += \
     sobre.cpp \
     pergunta1.cpp \
     continua1.cpp \
-    quest1.cpp
+    quest1.cpp \
+    questoes.cpp \
+    pergunta2.cpp
 
 HEADERS += \
         widget.h \
     sobre.h \
     pergunta1.h \
     continua1.h \
-    quest1.h
+    quest1.h \
+    questoes.h \
+    pergunta2.h
 
 FORMS += \
         widget.ui \
     sobre.ui \
     pergunta1.ui \
     continua1.ui \
-    quest1.ui
+    quest1.ui \
+    pergunta2.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -26,11 +26,13 @@ public:
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents_2;
     QGridLayout *gridLayout_2;
-    QPushButton *pushButton_4;
+    QPushButton *viunadaButton;
+    QPushButton *cachorroButton;
+    QPushButton *coracaoButton;
+    QPushButton *religiaoButton;
     QLabel *label;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
+    QPushButton *dragaoButton;
+    QPushButton *outracoisaButton;
 
     void setupUi(QWidget *Quest1)
     {
@@ -47,36 +49,55 @@ public:
         scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 380, 280));
         gridLayout_2 = new QGridLayout(scrollAreaWidgetContents_2);
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
-        pushButton_4 = new QPushButton(scrollAreaWidgetContents_2);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        viunadaButton = new QPushButton(scrollAreaWidgetContents_2);
+        viunadaButton->setObjectName(QString::fromUtf8("viunadaButton"));
+        QFont font;
+        font.setFamily(QString::fromUtf8("Consolas"));
+        font.setPointSize(9);
+        viunadaButton->setFont(font);
 
-        gridLayout_2->addWidget(pushButton_4, 5, 1, 1, 1);
+        gridLayout_2->addWidget(viunadaButton, 1, 0, 1, 1);
+
+        cachorroButton = new QPushButton(scrollAreaWidgetContents_2);
+        cachorroButton->setObjectName(QString::fromUtf8("cachorroButton"));
+        cachorroButton->setFont(font);
+
+        gridLayout_2->addWidget(cachorroButton, 1, 1, 1, 1);
+
+        coracaoButton = new QPushButton(scrollAreaWidgetContents_2);
+        coracaoButton->setObjectName(QString::fromUtf8("coracaoButton"));
+        coracaoButton->setFont(font);
+
+        gridLayout_2->addWidget(coracaoButton, 5, 0, 1, 1);
+
+        religiaoButton = new QPushButton(scrollAreaWidgetContents_2);
+        religiaoButton->setObjectName(QString::fromUtf8("religiaoButton"));
+        religiaoButton->setFont(font);
+
+        gridLayout_2->addWidget(religiaoButton, 5, 1, 1, 1);
 
         label = new QLabel(scrollAreaWidgetContents_2);
         label->setObjectName(QString::fromUtf8("label"));
-        QFont font;
-        font.setFamily(QString::fromUtf8("Consolas"));
-        font.setPointSize(10);
-        label->setFont(font);
+        QFont font1;
+        font1.setFamily(QString::fromUtf8("Consolas"));
+        font1.setPointSize(10);
+        label->setFont(font1);
         label->setTextFormat(Qt::RichText);
         label->setWordWrap(true);
 
         gridLayout_2->addWidget(label, 0, 0, 1, 2);
 
-        pushButton_3 = new QPushButton(scrollAreaWidgetContents_2);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+        dragaoButton = new QPushButton(scrollAreaWidgetContents_2);
+        dragaoButton->setObjectName(QString::fromUtf8("dragaoButton"));
+        dragaoButton->setFont(font);
 
-        gridLayout_2->addWidget(pushButton_3, 5, 0, 1, 1);
+        gridLayout_2->addWidget(dragaoButton, 6, 0, 1, 1);
 
-        pushButton = new QPushButton(scrollAreaWidgetContents_2);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        outracoisaButton = new QPushButton(scrollAreaWidgetContents_2);
+        outracoisaButton->setObjectName(QString::fromUtf8("outracoisaButton"));
+        outracoisaButton->setFont(font);
 
-        gridLayout_2->addWidget(pushButton, 1, 0, 1, 1);
-
-        pushButton_2 = new QPushButton(scrollAreaWidgetContents_2);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-
-        gridLayout_2->addWidget(pushButton_2, 1, 1, 1, 1);
+        gridLayout_2->addWidget(outracoisaButton, 6, 1, 1, 1);
 
         scrollArea->setWidget(scrollAreaWidgetContents_2);
 
@@ -91,11 +112,13 @@ public:
     void retranslateUi(QWidget *Quest1)
     {
         Quest1->setWindowTitle(QApplication::translate("Quest1", "Form", nullptr));
-        pushButton_4->setText(QApplication::translate("Quest1", "PushButton", nullptr));
-        label->setText(QApplication::translate("Quest1", "<html><head/><body><p align=\"center\">O que foi visto na tela anterior</p></body></html>", nullptr));
-        pushButton_3->setText(QApplication::translate("Quest1", "PushButton", nullptr));
-        pushButton->setText(QApplication::translate("Quest1", "PushButton", nullptr));
-        pushButton_2->setText(QApplication::translate("Quest1", "PushButton", nullptr));
+        viunadaButton->setText(QApplication::translate("Quest1", "N\303\243o vi nada", nullptr));
+        cachorroButton->setText(QApplication::translate("Quest1", "Cachorro", nullptr));
+        coracaoButton->setText(QApplication::translate("Quest1", "Cora\303\247\303\243o", nullptr));
+        religiaoButton->setText(QApplication::translate("Quest1", "Jesus Cristo", nullptr));
+        label->setText(QApplication::translate("Quest1", "<html><head/><body><p align=\"center\"><span style=\" font-size:11pt;\">O que foi visto na tela anterior</span></p></body></html>", nullptr));
+        dragaoButton->setText(QApplication::translate("Quest1", "Drag\303\243o soltando fogo numa casa", nullptr));
+        outracoisaButton->setText(QApplication::translate("Quest1", "Outra coisa", nullptr));
     } // retranslateUi
 
 };

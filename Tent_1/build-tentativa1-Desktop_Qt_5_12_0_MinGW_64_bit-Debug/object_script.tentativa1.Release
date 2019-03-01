@@ -4,9 +4,12 @@ release/sobre.o
 release/pergunta1.o
 release/continua1.o
 release/quest1.o
+release/questoes.o
+release/pergunta2.o
 release/qrc_photos.o
 release/moc_widget.o
 release/moc_sobre.o
 release/moc_pergunta1.o
 release/moc_continua1.o
 release/moc_quest1.o
+release/moc_pergunta2.o

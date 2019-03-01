@@ -26,8 +26,8 @@ public:
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents;
     QGridLayout *gridLayout_2;
-    QLabel *titulo;
     QPushButton *ir;
+    QLabel *titulo;
     QLabel *enunciado;
 
     void setupUi(QWidget *Pergunta1)
@@ -46,20 +46,20 @@ public:
         scrollAreaWidgetContents->setGeometry(QRect(0, 0, 380, 280));
         gridLayout_2 = new QGridLayout(scrollAreaWidgetContents);
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
-        titulo = new QLabel(scrollAreaWidgetContents);
-        titulo->setObjectName(QString::fromUtf8("titulo"));
+        ir = new QPushButton(scrollAreaWidgetContents);
+        ir->setObjectName(QString::fromUtf8("ir"));
         QFont font;
         font.setFamily(QString::fromUtf8("Consolas"));
         font.setPointSize(10);
-        titulo->setFont(font);
-
-        gridLayout_2->addWidget(titulo, 1, 0, 1, 1);
-
-        ir = new QPushButton(scrollAreaWidgetContents);
-        ir->setObjectName(QString::fromUtf8("ir"));
         ir->setFont(font);
 
         gridLayout_2->addWidget(ir, 3, 2, 1, 1);
+
+        titulo = new QLabel(scrollAreaWidgetContents);
+        titulo->setObjectName(QString::fromUtf8("titulo"));
+        titulo->setFont(font);
+
+        gridLayout_2->addWidget(titulo, 1, 0, 1, 1);
 
         enunciado = new QLabel(scrollAreaWidgetContents);
         enunciado->setObjectName(QString::fromUtf8("enunciado"));
@@ -85,9 +85,9 @@ public:
     void retranslateUi(QWidget *Pergunta1)
     {
         Pergunta1->setWindowTitle(QApplication::translate("Pergunta1", "Form", nullptr));
-        titulo->setText(QApplication::translate("Pergunta1", "<html><head/><body><p align=\"center\">Pergunta 1</p></body></html>", nullptr));
         ir->setText(QApplication::translate("Pergunta1", "Ir", nullptr));
-        enunciado->setText(QApplication::translate("Pergunta1", "<html><head/><body><p align=\"center\">Aperte o bot\303\243o abaixo e preste aten\303\247\303\243o na tela seguinte</p></body></html>", nullptr));
+        titulo->setText(QApplication::translate("Pergunta1", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">Pergunta 1</span></p></body></html>", nullptr));
+        enunciado->setText(QApplication::translate("Pergunta1", "<html><head/><body><p align=\"center\"><span style=\" font-size:10pt;\">Aperte o bot\303\243o abaixo e olhe fixamente para a tela seguinte</span></p></body></html>", nullptr));
     } // retranslateUi
 
 };

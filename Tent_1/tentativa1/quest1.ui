@@ -29,10 +29,55 @@
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
-       <item row="5" column="1">
-        <widget class="QPushButton" name="pushButton_4">
+       <item row="1" column="0">
+        <widget class="QPushButton" name="viunadaButton">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
          <property name="text">
-          <string>PushButton</string>
+          <string>Não vi nada</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="cachorroButton">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Cachorro</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QPushButton" name="coracaoButton">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Coração</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QPushButton" name="religiaoButton">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Jesus Cristo</string>
          </property>
         </widget>
        </item>
@@ -45,7 +90,7 @@
           </font>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;O que foi visto na tela anterior&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;O que foi visto na tela anterior&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="textFormat">
           <enum>Qt::RichText</enum>
@@ -55,24 +100,29 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="0">
-        <widget class="QPushButton" name="pushButton_3">
+       <item row="6" column="0">
+        <widget class="QPushButton" name="dragaoButton">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
          <property name="text">
-          <string>PushButton</string>
+          <string>Dragão soltando fogo numa casa</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="0">
-        <widget class="QPushButton" name="pushButton">
-         <property name="text">
-          <string>PushButton</string>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="outracoisaButton">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>9</pointsize>
+          </font>
          </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QPushButton" name="pushButton_2">
          <property name="text">
-          <string>PushButton</string>
+          <string>Outra coisa</string>
          </property>
         </widget>
        </item>

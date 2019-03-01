@@ -232,6 +232,7 @@ Makefile: ../tentativa1/tentativa1.pro ../../../Qt/5.12.0/mingw73_64/mkspecs/win
 		../tentativa1/tentativa1.pro \
 		../../../Qt/5.12.0/mingw73_64/lib/Qt5Widgets.prl \
 		../../../Qt/5.12.0/mingw73_64/lib/Qt5Gui.prl \
+		../../../Qt/5.12.0/mingw73_64/lib/Qt5Xml.prl \
 		../../../Qt/5.12.0/mingw73_64/lib/Qt5Core.prl \
 		../../../Qt/5.12.0/mingw73_64/lib/qtmaind.prl
 	$(QMAKE) -o Makefile ..\tentativa1\tentativa1.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -406,6 +407,7 @@ Makefile: ../tentativa1/tentativa1.pro ../../../Qt/5.12.0/mingw73_64/mkspecs/win
 ../tentativa1/tentativa1.pro:
 ../../../Qt/5.12.0/mingw73_64/lib/Qt5Widgets.prl:
 ../../../Qt/5.12.0/mingw73_64/lib/Qt5Gui.prl:
+../../../Qt/5.12.0/mingw73_64/lib/Qt5Xml.prl:
 ../../../Qt/5.12.0/mingw73_64/lib/Qt5Core.prl:
 ../../../Qt/5.12.0/mingw73_64/lib/qtmaind.prl:
 qmake: FORCE
